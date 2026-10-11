@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Node
+node_modules/
+.env.local
+npm-debug.log*
+
+# Mobile
+.expo/
+.expo-shared/
+
+# OS
+.DS_Store
+Thumbs.db

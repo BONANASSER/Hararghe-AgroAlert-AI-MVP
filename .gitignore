@@ -1,0 +1,17 @@
+# Hararghe AgroAlert AI MVP
+
+A full-stack starter app for agricultural alerts and AI-assisted crop monitoring.
+
+## Features
+
+- Alert management API
+- Web dashboard for monitoring
+- Mobile app for field use
+- PostgreSQL support
+- FastAPI backend
+- React + Vite frontend
+- Expo mobile app
+
+## Environment variables
+
+Use the `.env.example` file in backend for configuration.
