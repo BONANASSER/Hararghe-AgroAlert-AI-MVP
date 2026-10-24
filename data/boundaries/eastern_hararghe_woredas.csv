@@ -1,0 +1,19 @@
+woreda_id,woreda_name,lat,lon,elevation_m,agro_ecological_zone,staple_crops,livestock_systems,drought_vulnerability,min_lat,max_lat,min_lon,max_lon
+ET040401,Babile,9.2167,42.3333,1350,Kolla (Warm Lowlands),Sorghum; Groundnut; Sesame,Camel; Goat; Cattle pastoralism,Extreme,8.85,9.55,42.05,42.6
+ET040402,Fedis,9.0833,42.0833,1420,Kolla (Warm Lowlands),Sorghum; Maize; Haricot Bean,Goat; Cattle,High,8.75,9.35,41.8,42.35
+ET040403,Gursum,9.35,42.4,1850,Woina Dega (Temperate Midlands),Sorghum; Maize; Haricot Bean; Khat,Cattle; Sheep,Moderate,9.15,9.6,42.2,42.65
+ET040404,Jarso,9.5,42.25,2100,Woina Dega (Temperate Midlands),Maize; Wheat; Haricot Bean; Vegetables,Cattle; Sheep,Moderate,9.3,9.75,42.05,42.45
+ET040405,Kersa,9.4333,41.8667,2050,Woina Dega (Temperate Midlands),Maize; Sorghum; Haricot Bean; Wheat,Cattle; Sheep; Goat,Moderate,9.25,9.65,41.7,42.05
+ET040406,Deder,9.3167,41.45,2450,Dega (Cool Highlands),Wheat; Barley; Faba Bean; Potato,Cattle; Sheep,Low to Moderate,9.1,9.55,41.25,41.7
+ET040407,Meta,9.4167,41.6,2200,Woina Dega (Temperate Midlands),Maize; Sorghum; Haricot Bean; Khat,Cattle; Goat,Moderate,9.2,9.6,41.45,41.8
+ET040408,Haramaya,9.4,42.0167,2000,Woina Dega (Temperate Midlands),Maize; Sorghum; Haricot Bean; Vegetables; Khat,Cattle; Poultry,Moderate,9.25,9.55,41.88,42.15
+ET040409,Kombolcha,9.4333,42.1167,1950,Woina Dega (Temperate Midlands),Maize; Sorghum; Haricot Bean; Vegetables,Cattle; Goat,Moderate,9.3,9.6,42.0,42.25
+ET040410,Girawa,9.1333,41.8333,2550,Dega (Cool Highlands),Wheat; Barley; Faba Bean; Maize,Cattle; Sheep,Moderate,8.95,9.35,41.65,42.05
+ET040411,Bedeno,9.1,41.6333,2150,Woina Dega (Temperate Midlands),Maize; Sorghum; Wheat; Haricot Bean,Cattle; Sheep; Goat,Moderate,8.9,9.3,41.45,41.85
+ET040412,Kurfa Chele,9.25,41.7667,2350,Dega (Cool Highlands),Wheat; Barley; Faba Bean; Maize,Cattle; Sheep,Moderate,9.08,9.4,41.6,41.95
+ET040413,Chinaksen,9.5,42.5,1650,Kolla to Woina Dega,Sorghum; Maize; Haricot Bean,Cattle; Goat; Camel,High,9.25,9.85,42.3,42.8
+ET040414,Midhaga Tola,8.9,41.9,1500,Kolla (Warm Lowlands),Sorghum; Maize; Sesame,Goat; Cattle; Camel,High,8.65,9.15,41.7,42.15
+ET040415,Meyu Muluke,8.55,41.85,1200,Kolla (Warm Lowlands / Pastoral),Sorghum; Millet,Camel; Goat; Cattle,Extreme,8.2,8.85,41.5,42.2
+ET040416,Kumbi,8.25,42.1,1100,Kolla (Warm Lowlands / Pastoral),Sorghum; Cowpea,Camel; Goat,Extreme,7.8,8.6,41.7,42.5
+ET040417,Golo Oda,8.45,41.35,1300,Kolla (Warm Lowlands / Pastoral),Sorghum; Maize,Camel; Goat; Cattle,Extreme,8.0,8.8,41.0,41.7
+ET040418,Bate,9.42,42.0,1980,Woina Dega (Temperate Midlands),Maize; Vegetables; Sorghum; Khat,Cattle; Poultry,Moderate,9.35,9.48,41.92,42.08

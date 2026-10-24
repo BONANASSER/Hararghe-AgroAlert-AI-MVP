@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment files
+.env
+!.env.example
+
+# Node and web builds
+**/node_modules/
+**/dist/
+npm-debug.log*
+
+# Expo
+frontend-mobile/.expo/
+frontend-mobile/.expo-shared/
+
+# Office temporary lock files
+~$*.docx
+
+# OS
+.DS_Store
+Thumbs.db

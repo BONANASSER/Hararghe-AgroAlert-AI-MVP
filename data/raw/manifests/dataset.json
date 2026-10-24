@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0",
+  "project": "Multimodal Early Warning System - Eastern Hararghe",
+  "last_updated_utc": "2026-10-24T14:32:24.240862+00:00",
+  "datasets": {
+    "eastern_hararghe_boundaries": {
+      "name": "eastern_hararghe_boundaries",
+      "filepath": "data/boundaries/eastern_hararghe_woredas.geojson",
+      "sha256": "c2c785331b553cd3943363036dd67f28b60f7657b67294a22537e9ef4f741663",
+      "size_bytes": 16030,
+      "source_url": "https://github.com/AgriMinds/AgriMinds/tree/main/data/boundaries",
+      "provider": "Ethiopian Statistical Service (ESS) & Oromia Administrative Mapping",
+      "temporal_coverage": "Static Boundary Baseline (2026)",
+      "spatial_resolution": "Admin 3 (Woreda Level)",
+      "record_count": 18,
+      "is_synthetic": false,
+      "verified_at_utc": "2026-10-23T18:00:48.696628+00:00",
+      "status": "verified_observational",
+      "metadata": {
+        "total_woredas": 18,
+        "zone": "East Hararge"
+      }
+    },
+    "noaa_psl_enso_teleconnections": {
+      "name": "noaa_psl_enso_teleconnections",
+      "filepath": "data/era5/enso_teleconnections_1990_2026.csv",
+      "sha256": "31dafcef3923821c3e2b7a4740df6ee188ee615cfecb647ad08efdc36353bde4",
+      "size_bytes": 25438,
+      "source_url": "https://psl.noaa.gov/data/correlation/nina34.data",
+      "provider": "NOAA Physical Sciences Laboratory (ERSST v6)",
+      "temporal_coverage": "1990-01-01 to 2026-10-01",
+      "spatial_resolution": "Equatorial Pacific [5N-5S, 170W-120W]",
+      "record_count": 442,
+      "is_synthetic": false,
+      "verified_at_utc": "2026-10-23T18:01:19.045090+00:00",
+      "status": "verified_observational",
+      "metadata": {
+        "variables": [
+          "nino34_anomaly",
+          "nino12_anomaly",
+          "nino4_anomaly",
+          "soi",
+          "enso_category"
+        ],
+        "calibration_reference": "Megbar & Tadesse (2016)"
+      }
+    },
+    "chirps_v3_eastern_hararghe_monthly": {
+      "name": "chirps_v3_eastern_hararghe_monthly",
+      "filepath": "data/chirps/eastern_hararghe_chirps_monthly_1990_2026.csv",
+      "sha256": "789bc2669bd1f82f98a78a292364284f74c4c9e5187606f9f67dbf5e59b6ecf6",
+      "size_bytes": 641071,
+      "source_url": "",
+      "provider": "Synthetic prototype generator; not CHIRPS observations",
+      "temporal_coverage": "1990-01-01 to 2026-10-01",
+      "spatial_resolution": "0.05\u00b0 (~5 km) Zonal Woreda Mean",
+      "record_count": 7956,
+      "is_synthetic": true,
+      "verified_at_utc": "2026-10-23T19:15:56.130782+00:00",
+      "status": "demonstration",
+      "metadata": {
+        "variables": [
+          "precip_mm",
+          "precip_anomaly_mm",
+          "precip_3m_mm",
+          "spi_1m",
+          "spi_3m"
+        ],
+        "calibration": "30-year NMA ground observation baseline (1990-2020)"
+      }
+    },
+    "modis_smap_fewsnet_eastern_hararghe_2015_2026": {
+      "name": "modis_smap_fewsnet_eastern_hararghe_2015_2026",
+      "filepath": "data/nasa/eastern_hararghe_remote_sensing_2015_2026.csv",
+      "sha256": "0326e7a73574901e5c2a79775f202528be57aaf1ed6e58c5aa073970c6b37f0f",
+      "size_bytes": 284639,
+      "source_url": "https://search.earthdata.nasa.gov/ & https://fews.net/data",
+      "provider": "NASA LP DAAC (MODIS), NASA NSIDC DAAC (SMAP), FEWS NET",
+      "temporal_coverage": "2015-01-01 to 2026-10-01",
+      "spatial_resolution": "250 m (MODIS), 9 km (SMAP), Admin 3 Woreda Mean",
+      "record_count": 2556,
+      "is_synthetic": false,
+      "verified_at_utc": "2026-10-23T19:27:43.486298+00:00",
+      "status": "verified_observational",
+      "metadata": {
+        "variables": [
+          "modis_ndvi",
+          "modis_evi",
+          "vci",
+          "lst_day_c",
+          "smap_soil_moist",
+          "fews_ipc_phase"
+        ],
+        "calibration": "MODIS Terra Collection 6.1 & SMAP Enhanced L3 V6"
+      }
+    },
+    "hararghe_official_boundaries_2023": {
+      "name": "hararghe_official_boundaries_2023",
+      "filepath": "data/boundaries/hararghe_zones_woredas.geojson",
+      "sha256": "a74315f0495d811ef72d87e1b1c26884a711e670241aeeed263612a02d69c5ad",
+      "size_bytes": 776899,
+      "source_url": "ET_Admin3_2023.shp (Official Ethiopian CSA/EDRMC Boundary Archive)",
+      "provider": "Ethiopian Central Statistical Agency / Oromia Regional Government",
+      "temporal_coverage": "Official 2023 Baseline",
+      "spatial_resolution": "Admin 3 (41 Woredas in East & West Hararghe)",
+      "record_count": 41,
+      "is_synthetic": false,
+      "verified_at_utc": "2026-10-24T14:28:01.216172+00:00",
+      "status": "verified_observational",
+      "metadata": {
+        "total_woredas": 41,
+        "zones": [
+          "East Hararge",
+          "West Hararge"
+        ],
+        "east_hararge_woredas": 24,
+        "west_hararge_woredas": 17
+      }
+    },
+    "chirps_v3_hararghe_zones_1990_2026": {
+      "name": "chirps_v3_hararghe_zones_1990_2026",
+      "filepath": "data/chirps/hararghe_zones_chirps_monthly_1990_2026.csv",
+      "sha256": "647a6fb054d27ae0f5992ecddf32f32ea70de70163e10904c1591f4903dc15d9",
+      "size_bytes": 1856552,
+      "source_url": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/",
+      "provider": "Climate Hazards Center (UCSB / SERVIR / CHIRPS v3)",
+      "temporal_coverage": "1990-01-01 to 2026-10-01",
+      "spatial_resolution": "0.05\u00b0 (~5 km) Zonal Woreda Mean across East & West Hararge",
+      "record_count": 18122,
+      "is_synthetic": false,
+      "verified_at_utc": "2026-10-24T14:31:36.300853+00:00",
+      "status": "verified_observational",
+      "metadata": {
+        "variables": [
+          "precip_mm",
+          "precip_anomaly_mm",
+          "precip_3m_mm",
+          "spi_1m",
+          "spi_3m",
+          "drought_hazard_category"
+        ],
+        "total_woredas": 41,
+        "zones": [
+          "East Hararge",
+          "West Hararge"
+        ],
+        "period": "1990 to October 2026"
+      }
+    },
+    "hararghe_zones_remote_sensing_1990_2026": {
+      "name": "hararghe_zones_remote_sensing_1990_2026",
+      "filepath": "data/nasa/hararghe_zones_remote_sensing_1990_2026.csv",
+      "sha256": "2160b14752cde37b94472c0bbefa342b68341c8a05469536c987cd5fa1da4363",
+      "size_bytes": 2407963,
+      "source_url": "",
+      "provider": "Synthetic prototype generator; not satellite or FEWS NET observations",
+      "temporal_coverage": "1990-01-01 to 2026-10-01",
+      "spatial_resolution": "Admin 3 (41 Woredas in East & West Hararge)",
+      "record_count": 18122,
+      "is_synthetic": true,
+      "verified_at_utc": "2026-10-24T14:32:24.240835+00:00",
+      "status": "demonstration",
+      "metadata": {
+        "variables": [
+          "modis_ndvi",
+          "modis_evi",
+          "vci",
+          "lst_day_c",
+          "smap_soil_moist",
+          "fews_ipc_phase"
+        ],
+        "total_woredas": 41,
+        "zones": [
+          "East Hararge",
+          "West Hararge"
+        ],
+        "period": "1990 to October 2026"
+      }
+    }
+  }
+}
